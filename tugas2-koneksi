@@ -1,0 +1,11 @@
+<?php
+$servername = "localhost";
+$username = "melonst1_kampus";
+$password = "unisbank9999";
+$dbname = "melonst1_akademik";
+
+$connection = mysqli_connect($servername, $username, $password, $dbname);
+if (!$connection){
+        die("Connection Failed:".mysqli_connect_error());
+    }
+?>
