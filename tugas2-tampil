@@ -27,7 +27,3 @@ $query = mysqli_query($connection,"SELECT * FROM mahasiswa");
     </table>
 </form>
 
-    <table border="1" cellpadding="0" cellspacing="0">
-    <td><?php print ("ANGGOTA KELOMPOK TUGAS 2:");?></td>
-    <td><?php print (" NIM 17.01.65.0003 dan NIM 16.01.55.0042 ");?></td>
-    </table>
